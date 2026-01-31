@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Isiko Stephen">
+  <meta name="description" content="This is the place page">
+  <title>Uganda The Place</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <h1>Uganda</h1>
+  </header>
+
+  <div class="separator"></div>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/place-hero.webp" media="(min-width: 768px)">
+        <img src="images/place-hero.webp" alt="Uganda Landscape">
+      </picture>
+
+      <section class="data">
+        <h2>Data</h2>
+        <ul>
+          <li>Population: 47 million</li>
+          <li>Capital: Kampala</li>
+          <li>Language: English, Swahili</li>
+          <li>Calling Code: +256</li>
+          <li>Currency: UGX</li>
+        </ul>
+      </section>
+
+      <section class="weather">
+        <h2>Weather <span class="icon"></span></h2>
+        <img src="images/mobile-weather.svg" alt="Weather Icon" class="weather-icon">
+        <p>Temperature: <span id="temp">28</span> °C</p>
+        <p>Wind Speed: <span id="speed">10</span> km/h</p>
+        <p>Wind Chill: <span id="chill"></span></p>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> ❤Phiona Nabukenya❤ <br> Uganda <br> Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
