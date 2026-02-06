@@ -26,7 +26,11 @@ label {
   margin-top: 1rem;
   font-weight: bold;
 }
-
+@media screen and (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}
 input[type="text"],
 input[type="date"],
 select,
