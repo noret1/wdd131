@@ -47,6 +47,12 @@ fieldset {
   border: 1px solid #ccc;
   padding: 1rem;
   border-radius: 4px;
+  display: flex;
+}
+
+.hori {
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 input[type="submit"] {
