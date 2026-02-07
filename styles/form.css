@@ -54,6 +54,9 @@ fieldset {
   flex-direction: row;
   justify-content: space-between;
 }
+.vert {
+  flex-direction: column;
+}
 
 input[type="submit"] {
   margin-top: 1.5rem;
