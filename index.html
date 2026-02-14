@@ -2,63 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131 - Dynamic Web Fundamentals - Nabukenya Phiona</title>
-    <meta name="description"
-        content="Explore Uganda the pearl of Africa and learn more about its geography,culture,Population and weather conditions.">
-    <meta name="author" content="Nabukenya Phiona">
-    <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/getdates.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Cocoa Child Organization</title>
+  <meta name="description" content="A community where every person has access to essential needs,continuous charity, and opportunities for abetter life" >
+  <meta name="author" content="Nabukenya phiona" >
+  <link rel="stylesheet" href="styles/style.css" >
+  <link rel="stylesheet" href="styles/large.css" >
+  <link rel="stylesheet" href="styles/mobile.css" >
+  <script src="scripts/main.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" >
 </head>
 
 <body>
-    <header>
-        <span id="course-title">
-            WDD 131 - Dynamic Web Fundamentals
-        </span>
-        <nav>
-            <a href="https://www.linkedin.com">LinkedIn</a>
-            <a href="https://byupw.instructure.com/">Canvas </a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/9?lang=eng">Scripture</a>
-            <a href="#">Final Project</a>
-        </nav>
+  <header>
+    <h1>AL-THAWAB JARIYAH FOUNDATION</h1>
+    <a id="menu" href="@"></a>
 
-    </header>
-    <main>
-        <h1>Nabukenya phiona</h1>
-        <div class="cards-container">
-            <section class="card">
-                <div class="about-me">
-                    <h2>About Me</h2>
-                    <img src="images/nabukenyaphiona.jpg" alt="My profile photo">
-                </div>
-                <p>i'm Nabukenya Phiona adedicated professional working with BAYLOR UGANDA ON HIV PREVENTION, CARE AND TREATMENT . AS A student at BYU , i'm passionate about software development with afocus on web development .My goal is to become a powerful , educated lady with a loving family ,when am not working or studying , i enjoy travelling hanging out with friends , attending church activities ,and reading books. as a mother of two beautiful lovely daughters , family is abig part of my life.</p>
-            </section>
-
-            <section class="card">
-                <h2>My Interests</h2>
-                <img src="images/byu.jpeg" alt="My hobby">
-                <p>I like <a href="#">coding</a>, <a href="#">travelling with friends</a>, <a href="#"></a> and counselling <a href="#"> my clients</a>.</p>
-                <img src="images/uganda.jpg" alt="Your State/Country Flag" width="200">
-                    <p>Uganda is the Pearl of Africa and a landlocked country located in East Africa with a population of over 45 million people. It is renowned for its breathtaking natural beauty, including Lake Victoria, Africa’s largest lake, the Rwenzori Mountains, and numerous national parks such as Bwindi Impenetrable Forest, home to endangered mountain gorillas. Uganda has a rich cultural heritage with over 50 ethnic groups, each contributing unique languages, music, dance, and traditions. The country’s warm climate, fertile soils, diverse wildlife, and welcoming people make Uganda one of the most biologically and culturally diverse nations in Africa..</p>
-                </div>
-            </section>
+    <nav>
+      <ul class="sidebar">
+        <li class="close-button" onclick="hideSidebar()">
+          <a href="#"><img src="images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Close" ></a>
+        </li>
+        <li><a href="index">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <ul>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+        <li class="hideOnMobile"><a href="donate.html">Donate</a></li>
+        <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><img src="images/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu" ></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="home-title">
+    </h2>AL-THAWAB JARIYAH FOUNDATION<h2>
+      <p>This is our organization</p>
+      <a href="donate.html" class="button-link">Donate Now</a>
+    </div>
+    <h2>Welcome To Our Organization Website</h2>
+    <div class="org-desc">
+      <div>
+        <img src="images/13.jpg" alt="Happy children" loading="lazy" >
+      </div>
+      <div>
+        <h3>Our Vision</h3>
+        <p>A community where every person has access to essential needs,continuous charity, and opportunities for abetter life</p>
+        <h3>Our mission</h3>
+        <p id="To provide sustainable charitable services that improve lives through education, water access, community support and faith-based projects that uplift vulnerable communities"></p>
+        <h3>Our Core Values</h3>
+        <p>Honesty</p>
+        <p>Team work</p>
+        <p>Time managemnet</p>
+        <div class="index-about-button">
+          <a href="about.html" class="button-link">Learn more</a>
         </div>
-    </main>
+      </div>
+    </div>
 
-    <footer>
-        <p> &copy;<span id="currentyear"></span> Nabukenya Phiona, Uganda</p>
-        <p id="lastModified"></p>
+    <h2>Our Children</h2>
+    <p>Some of the kids at our organization</p>
 
-    </footer>
+    <div class="gallery">
+      <figure>
+        <img src="images/13.jpg" alt="Happy children" loading="lazy" >
+
+        <figcaption>Kato Rayyan Mukiibi</figcaption>
+      </figure>
+      <figure>
+        <img src="images/14.jpg" alt="Happy children" loading="lazy" >
+
+        <figcaption>Ssali Shimaya</figcaption>
+      </figure>
+      <figure>
+        <img src="images/17.jpg" alt="Happy children" loading="lazy" >
+
+        <figcaption>Nagawa Aisha</figcaption>
+      </figure>
+    </div>
+    <div class="impact">
+      <h2>Our Impact</h2>
+      <p>See how we have impacted</p>
+      <div class="impact-sec">
+        <div>
+          <h2>50 +</h2>
+          <p>Children Now</p>
+        </div>
+        <div>
+          <h2>4+</h2>
+          <p>Years of existence</p>
+        </div>
+        <div>
+          <h2>$100,000</h2>
+          <p>Invested</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy;<span id="currentyear"></span> Nabukenya Phiona, Uganda</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 
 </html>
-
-
